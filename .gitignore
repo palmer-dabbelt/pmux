@@ -1,0 +1,15 @@
+*.swp
+*.o
+.dirstamp
+.deps/
+/autom4te.cache
+/configure
+/Makefile
+/Makefile.in
+/aclocal.m4
+/config.log
+/config.status
+/install-sh
+/missing
+/pmux
+/depcomp
