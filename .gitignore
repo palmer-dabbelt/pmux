@@ -13,3 +13,6 @@
 /missing
 /pmux
 /depcomp
+/install
+/enter.bash
+/pmuxd
