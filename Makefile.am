@@ -2,4 +2,5 @@ AUTOMAKE_OPTIONS = foreign subdir-objects
 
 bin_PROGRAMS = pmux
 pmux_SOURCES = \
-    src/pmux.c++
+    src/pmux.c++ \
+    src/pmux/client/session.c++

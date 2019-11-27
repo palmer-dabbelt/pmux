@@ -7,9 +7,14 @@
 namespace pmux {
     namespace bus {
         /* A logical clock, which produces timestamps -- essentially it's the
-         * bits of a Lamport clock that I can remember. */
+         * bits of a Lamport clock that I can remember.  The general idea here
+         * is that the clock produces timestamps that only ever increase, but
+         * that may not be uniform. */
         class clock {
         public:
+            /* The whole point of a logical clock is to produce timestamps,
+             * which I'm treating as an opaque object to avoid users poking too
+             * much into them. */
             class timestamp {
             };
 

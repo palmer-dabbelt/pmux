@@ -4,6 +4,8 @@
 #ifndef PMUX__BUS__CHANNEL_HXX
 #define PMUX__BUS__CHANNEL_HXX
 
+#include "clock.h++"
+
 namespace pmux {
     namespace bus {
         /* A single logical bus channel.  Channels go in one direction, but can
